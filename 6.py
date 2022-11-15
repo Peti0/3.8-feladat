@@ -1,0 +1,25 @@
+import turtle
+ablak=turtle.Screen()
+Teknős=turtle.Turtle()
+Teknős.shape("turtle")
+Teknős.color("blue")
+Eszti=turtle.Turtle()
+Eszti.shape("turtle")
+Eszti.color("blue")
+Béla=turtle.Turtle()
+Béla.shape("turtle")
+Béla.color("blue")
+Ferike=turtle.Turtle()
+Ferike.shape("turtle")
+Ferike.color("blue")
+
+Teknős.forward(100)
+Teknős.left(120)
+Teknős.forward(100)
+Teknős.left(120)
+Teknős.forward(100)
+Teknős.left(120)
+Teknős.forward(100)
+Teknős.left(120)
+
+
