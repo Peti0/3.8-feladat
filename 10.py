@@ -1,17 +1,26 @@
 import turtle
 
-ablak=turtle.Screen()
-Eszti=turtle.Turtle()
+Screen = turtle.Screen()
+Teknos = turtle.Turtle()
 
-Eszti.right(90)
-Eszti.left(3600)
-Eszti.right(90)
-Eszti.left(3600)
-Eszti.right(-90)
-Eszti.speed(10)
-Eszti.left(3600)
-Eszti.speed(0)
-Eszti.left(3645)
-Eszti.forward(-100)
+a = turtle.Screen()
+a.bgcolor("lightgreen")
+Teknos.color("black")
 
-ablak.mainloop
+for i in range(5):
+    Teknos.pensize(3)
+    Teknos.forward(100)
+    Teknos.right(144)
+    Teknos.forward(100)
+    Teknos.right(144)
+    Teknos.forward(100)
+    Teknos.right(144)
+    Teknos.forward(100)
+    Teknos.right(144)
+    Teknos.forward(100)
+
+    #Teknos.penup()
+    Teknos.forward(650)
+    Teknos.pendown()
+
+Screen.mainloop()

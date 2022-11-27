@@ -7,10 +7,11 @@ Screen.bgcolor("lightgreen")
 Teknos.speed(5)
 Teknos.pensize(5)
 
-def szabalyos_haromszog_rajzolas(t, sz):
-    for i in range(0,3):
-        Teknos.forward(150)
-        Teknos.left(sz)
+Teknos.right(90)
+def kor_terulet(r):
+    for i in range(0,36):
+        Teknos.forward(r)
+        Teknos.left(10)
 
-szabalyos_haromszog_rajzolas(Teknos, 120)
+kor_terulet(15)
 Screen.mainloop()

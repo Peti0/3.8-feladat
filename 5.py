@@ -1,16 +1,16 @@
-xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]
-for x in xs:
-    print(x)
+import turtle
 
-for x in xs:
-    print(x,x*x)
+Screen = turtle.Screen()
+Teknos = turtle.Turtle()
+Teknos.color("blue")
+Screen.bgcolor("lightgreen")
+Teknos.speed(5)
 
-összeg=0
-for x in xs:
-    összeg=összeg+x
-print(összeg)
+class rajzol:
+    def csiga(elore,szog,x):
+        for i in range(0,x):
+            Teknos.forward(elore+(i+i))
+            Teknos.left(szog)
 
-szorzat=1
-for x in xs:
-    szorzat=szorzat*x
-    print(szorzat)
+rajzol.csiga(10,90,147)
+Screen.mainloop()

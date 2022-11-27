@@ -1,9 +1,16 @@
 import turtle
-ablak=turtle.Screen()
-Eszti = turtle.Turtle()
 
+Screen = turtle.Screen()
+Teknos = turtle.Turtle()
+Teknos.color("blue")
+Screen.bgcolor("lightgreen")
+Teknos.speed(5)
+Teknos.pensize(1)
 
-for x in range(1,18):
-    Eszti.forward(50)
-    Eszti.right(160)
-ablak.mainloop()
+def csillag_rajzolas():
+    for i in range(0,6):
+        Teknos.right(144)
+        Teknos.forward(100)
+ 
+csillag_rajzolas()
+Screen.mainloop()
