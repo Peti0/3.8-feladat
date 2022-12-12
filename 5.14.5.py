@@ -1,0 +1,8 @@
+print("False")
+print("False")
+print("True")
+print("True")
+print("True")
+print("True")
+print("False")
+print("False")
